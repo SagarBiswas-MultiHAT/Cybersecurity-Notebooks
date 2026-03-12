@@ -4,19 +4,19 @@
 
 ## Notebooks
 
-[text](<BEST-Foundations of Networking.pdf>)
+[Foundations of Networking](<BEST-Foundations of Networking.pdf>)
 
-[text](DNS_in_Detail.pdf)
+[DNS in Detail](DNS_in_Detail.pdf)
 
-[text](<Google Dorks.pdf>)
+[Google Dorks](<Google Dorks.pdf>)
 
-[text](<Introduction_to_Cyber Security.pdf>)
+[Introduction to Cyber Security](<Introduction_to_Cyber Security.pdf>)
 
-[text](Network_Fundamentals.pdf)
+[Network Fundamentals](Network_Fundamentals.pdf)
 
-[text](<Securing the Future.pdf>)
+[Securing the Future](<Securing the Future.pdf>)
 
-[text](<Understanding Phishing How Attacks Are Crafted and Caught.pdf>)
+[Understanding Phishing How Attacks Are Crafted and Caught](<Understanding Phishing How Attacks Are Crafted and Caught.pdf>)
 
 
 <details><summary><h2>📂 Projects </h2></summary>
