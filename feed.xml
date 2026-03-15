@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cybersecurity Notebook Vault - Sagar Biswas</title>
+  <id>https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/feed.xml</id>
+  <updated>2026-03-15T00:00:00Z</updated>
+  <link href="https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/feed.xml" rel="self" />
+  <link href="https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/" />
+  <author>
+    <name>Sagar Biswas</name>
+  </author>
+  <entry>
+    <title>Cybersecurity Notes and Ethical Hacking Guide</title>
+    <id>https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/</id>
+    <link href="https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/" />
+    <updated>2026-03-15T00:00:00Z</updated>
+    <summary>Cybersecurity notes on networking, DNS, phishing, OSINT, and practical security learning paths.</summary>
+  </entry>
+</feed>
