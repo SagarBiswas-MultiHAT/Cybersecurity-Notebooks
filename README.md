@@ -756,13 +756,6 @@ gobuster -u https://example.com -w wordlist.txt dir -k
 
 https://sagarbiswas-multihat.github.io/blogs/
 
-
----
-
-## Student-Style Caption (Ready to Post)
-
-Hey everyone! I uploaded all my cybersecurity notebooks here in one place. I tried to explain everything from basics to advanced in simple language, including networking, DNS, Google Dorks, phishing, and cybersecurity career paths. If you are a beginner, you can follow the order in the README and build your knowledge step by step. If you are already learning, this can be a full revision guide with practical commands and clear topic breakdowns. Hope this helps someone in the community. If you have questions, feel free to ask.
-
 ---
 
 ## Hashtags
