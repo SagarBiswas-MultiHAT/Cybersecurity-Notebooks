@@ -1,0 +1,42 @@
+name: Get Started Checks
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate required files
+        run: |
+          set -euo pipefail
+          required=(
+            "README.md"
+            "index.html"
+            "404.html"
+            "assets/css/style.css"
+            "assets/js/main.js"
+          )
+
+          for file in "${required[@]}"; do
+            if [[ ! -f "$file" ]]; then
+              echo "Missing required file: $file"
+              exit 1
+            fi
+          done
+
+      - name: Basic HTML and README assertions
+        run: |
+          set -euo pipefail
+          grep -q "<title>" index.html
+          grep -qi "github pages" README.md
+          grep -qi "understanding phishing" README.md
+
+      - name: Success marker
+        run: echo "All baseline checks passed."
