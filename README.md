@@ -1,7 +1,18 @@
 # Cybersecurity Notebooks Vault
 
-A practical collection of my cybersecurity notebooks, projects, and learning notes.
-I wrote this README in a simple student style, but I made it very complete so someone can understand all major notebook topics and subtopics without opening each PDF first.
+<div align="right">
+
+[![GitHub Pages](https://img.shields.io/github/pages/status/SagarBiswas-MultiHAT/Cybersecurity-Notebooks?style=for-the-badge)](https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/)
+&nbsp;
+[![Release](https://img.shields.io/github/v/release/SagarBiswas-MultiHAT/Cybersecurity-Notebooks?style=for-the-badge)](https://github.com/SagarBiswas-MultiHAT/Cybersecurity-Notebooks/releases)
+&nbsp;
+![Last commit](https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/Cybersecurity-Notebooks?style=for-the-badge)
+&nbsp;
+[![License](https://img.shields.io/github/license/SagarBiswas-MultiHAT/Cybersecurity-Notebooks?style=for-the-badge)](LICENSE)
+
+</div>
+
+> A practical collection of my cybersecurity notebooks, projects, and learning notes. I wrote this README in a simple student style, but I made it very complete so someone can understand all major notebook topics and subtopics without opening each PDF first.
 
 ## Why this repo exists
 
