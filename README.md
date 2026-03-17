@@ -22,6 +22,7 @@ Live site: https://sagarbiswas-multihat.github.io/Cybersecurity-Notebooks/
 
 - Networking and DNS security foundations
 - Google dorks and OSINT methodology
+- Understanding phishing attack patterns and defense strategies
 - Phishing analysis and prevention fundamentals
 - Cybersecurity career track guidance
 
