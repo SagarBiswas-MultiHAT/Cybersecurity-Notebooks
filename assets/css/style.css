@@ -20,13 +20,15 @@
 
 html,
 body {
-    margin: 0;
+    /* center */
+    margin: 0 auto;
     padding: 0;
     background: radial-gradient(circle at 20% 10%, #0f1b26 0%, var(--bg) 45%), var(--bg);
     color: var(--text);
     font-family: "Space Grotesk", sans-serif;
     min-height: 100%;
     scroll-behavior: smooth;
+    width: 95%;
 }
 
 body {
@@ -69,8 +71,8 @@ body::before {
 }
 
 .container {
-    width: min(1120px, 92vw);
     margin: 0 auto;
+    width: 95%;
 }
 
 .site-header {
@@ -365,6 +367,47 @@ body::before {
     color: var(--muted);
 }
 
+/* Related Notebooks list styling */
+.project-list {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.8rem;
+}
+
+.project-list li {
+    background: linear-gradient(180deg, rgba(14, 22, 29, 0.7), rgba(9, 15, 20, 0.72));
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.9rem 1rem;
+}
+
+.project-list a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.project-list a:hover {
+    color: #eafff1;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 960px) {
+    .project-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 520px) {
+    .project-list {
+        grid-template-columns: 1fr;
+    }
+}
+
 .repo-group {
     border: 1px solid var(--line);
     background: rgba(10, 17, 22, 0.8);
@@ -380,13 +423,9 @@ body::before {
 
 .repo-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 0.8rem;
     margin-top: 0.9rem;
-}
-
-.repo-grid-wide {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .repo-grid a {
@@ -512,10 +551,6 @@ body::before {
 
     .repo-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .repo-grid-wide {
-        grid-template-columns: 1fr;
     }
 }
 
